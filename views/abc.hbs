@@ -6,11 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body
+    {
+        background-color: blueviolet;
+    }
+    div
+    {
+        display: flex;
+        justify-content: center;
+    }
+    input
+    {
+        background-color: aqua;
+        text-align: center;
+        height: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
 <body>
-    <form >
-        <input type="text" name="name" id="name" placeholder="Enter name">
-        <input type="password" name="pass" id="pass" placeholder="Enter Password">
-        <button type="submit">Login</button>
+    <div>
+        <form >
+        <input type="text" name="name" id="name" placeholder="Enter Name"><br><br>
+        <input type="password" name="pass" id="pass" placeholder="Enter Password"><br><br>
+        <input type="submit" value="Login">
     </form>
+    </div>
 </body>
 </html>
